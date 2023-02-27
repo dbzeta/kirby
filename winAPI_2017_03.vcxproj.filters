@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{94c55a37-05bf-4467-a394-14e69cf68962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\singletonBase">
+      <UniqueIdentifier>{0842e375-770c-4c1d-906a-d6870d37e2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{82307748-8b98-4bf2-8107-fe7cb736a381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{c48a6705-2741-456c-a482-a4a8b48f40ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UTIL">
+      <UniqueIdentifier>{e05615d0-4184-4cb1-b475-e2506b6d82b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{556bb1b1-29d7-4fc7-9cc8-a6217a2e8c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{85c9dfd2-b7ac-46ef-9e7f-7d2eac58baaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{5eb893fa-bfcb-4e47-b3ed-76e1dddd5958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{9757feab-065b-4f8b-b681-43fb59d65c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{648def99-736c-44f0-91e0-3edee4961bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{95565ac5-3a31-4605-8984-47f1928e7350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{ab05acb5-0f64-454d-a6ae-d846e19df95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\database">
+      <UniqueIdentifier>{3b24506e-52c2-4a2d-bd5d-c0b9e8012ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\TitleScene">
+      <UniqueIdentifier>{286141f7-a159-40f5-9d32-e0c35120af04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene">
+      <UniqueIdentifier>{b46c37a6-734f-4844-8c8f-6637594ef13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\enemy">
+      <UniqueIdentifier>{eaedf20f-8a1d-467e-a956-61c15752fca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\kirby">
+      <UniqueIdentifier>{c0bfbabd-a464-40a4-b496-0d4b3f35829e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\map">
+      <UniqueIdentifier>{ea58d574-354d-44e3-b713-a9fdd29d4cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\ui">
+      <UniqueIdentifier>{2c9c7b7a-b4d0-48ef-8e55-6296a295942e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\enemy\enemys">
+      <UniqueIdentifier>{fa7b172e-b34a-4edc-8b4d-0cad831f9fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameScene\kirby\kirbys">
+      <UniqueIdentifier>{3b60c938-0984-41d2-a81d-e9a7d18140ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>MainGame\database</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAniManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScene.h">
+      <Filter>MainGame\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>MainGame\GameScene\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyBase.h">
+      <Filter>MainGame\GameScene\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="mapManager.h">
+      <Filter>MainGame\GameScene\map</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>MainGame\GameScene\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="kirbyBase.h">
+      <Filter>MainGame\GameScene\kirby</Filter>
+    </ClInclude>
+    <ClInclude Include="kirby.h">
+      <Filter>MainGame\GameScene\kirby</Filter>
+    </ClInclude>
+    <ClInclude Include="menuScene.h">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="settingScene.h">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BrontoBurt.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="BroomHatter.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyInterface.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>MainGame\GameScene\map</Filter>
+    </ClInclude>
+    <ClInclude Include="endScene.h">
+      <Filter>MainGame\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Beem.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Cappy.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Gordo.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Grizzo.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="LaLaLoLo.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleBoss.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Scarfy.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotzo.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Tooky.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Twizzy.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="WaddleDee.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="fireKirby.h">
+      <Filter>MainGame\GameScene\kirby\kirbys</Filter>
+    </ClInclude>
+    <ClInclude Include="beamKirby.h">
+      <Filter>MainGame\GameScene\kirby\kirbys</Filter>
+    </ClInclude>
+    <ClInclude Include="frosty.h">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>MainGame\database</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAniManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScene.cpp">
+      <Filter>MainGame\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>MainGame\GameScene\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyBase.cpp">
+      <Filter>MainGame\GameScene\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="mapManager.cpp">
+      <Filter>MainGame\GameScene\map</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>MainGame\GameScene\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="kirbyBase.cpp">
+      <Filter>MainGame\GameScene\kirby</Filter>
+    </ClCompile>
+    <ClCompile Include="kirby.cpp">
+      <Filter>MainGame\GameScene\kirby</Filter>
+    </ClCompile>
+    <ClCompile Include="menuScene.cpp">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="settingScene.cpp">
+      <Filter>MainGame\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BrontoBurt.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="BroomHatter.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyInterface.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>MainGame\GameScene\map</Filter>
+    </ClCompile>
+    <ClCompile Include="endScene.cpp">
+      <Filter>MainGame\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Beem.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Cappy.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Gordo.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Grizzo.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="LaLaLoLo.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleBoss.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Scarfy.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotzo.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Tooky.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Twizzy.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="WaddleDee.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="fireKirby.cpp">
+      <Filter>MainGame\GameScene\kirby\kirbys</Filter>
+    </ClCompile>
+    <ClCompile Include="beamKirby.cpp">
+      <Filter>MainGame\GameScene\kirby\kirbys</Filter>
+    </ClCompile>
+    <ClCompile Include="frosty.cpp">
+      <Filter>MainGame\GameScene\enemy\enemys</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
